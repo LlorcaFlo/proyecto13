@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+* {
+    margin: 2px;
+}
+
+input[type="file" ] {
+    padding: 10px;
+}
+
+.contenedor {
+    display: inline-flex;
+}
+
+.img-circle {
+    border-radius: 90px;
+    border: 3px solid black;
+}
+
+.coldrch, .colizda, .colmedio {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    text-shadow: 2px 2px 10px black, -2px -2px 10px black;
+    background-color: rgba(185, 0, 0, 0.4);
+    color: white;
+}
+
+.colizda {
+    width: 210px;
+}
+
+.colmedio {
+    width: 815px;
+}
+
+.coldrch {
+    width: 210px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.ti {
+    color: red;
+}
+
+body {
+    font-family: 'Charm', cursive;
+    padding: 10px;
+    font-size: 18px;
+    color: #454545;
+    border-radius: 20px;
+}
+
+.header {
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(185, 0, 0, 0.4);
+    color: white;
+    text-shadow: 2px 2px 10px black, -2px -2px 10px black;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 33px;
+    text-align: right;
+    font-size: 14px;
+    text-shadow: 2px 2px 10px grey, -2px -2px 10px grey;
+}
+
+.navbar, .btn {
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.navbar [type="search"], [type="submit"] {
+    border-radius: 20px;
+}
+
+.errorf {
+    color:red;
+
+}
+
+.banner {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    padding: 15px;
+
+}
+
+.login, .registro {
+    border-radius: 3px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: lightyellow;
+    box-shadow: 0 0 10px black;
+}
+
+.form-control {
+    border-color: black;
+}
+
+.header h6 {
+    margin: 3px;
+    text-align: right;
+    padding: 10px;
+}
+
+h4,h5{
+    color: white;
+    text-shadow: 2px 2px 10px black, -2px -2px 10px black;
+    border-radius: 10px;
+    background-color: rgba(185, 0, 0, 0.4);
+    box-shadow: 0 0 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+/*
+.autorice {
+    font-size: 20px;
+    width: 500px;
+    margin: auto;
+}
+*/
+
+/*
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px 30px;
+    background: url("../../public/img/Ss-image.png");
+}
+
+.container {
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.navigation a {
+    padding: 8px 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #454545;
+    color: #454545;
+    background: transparent;
+}
+.left {
+    margin-right: auto;
+}
+
+.col-md-4 {
+    margin: auto;
+    background-color: lightyellow;
+}
+
+.navigation {
+    margin-left: 33px;
+}
+
+
+
+.navigation a:hover {
+    background: #454545;
+    color: #fff;
+}
+
+.container {
+    border: 1px solid #454545;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 33px;
+}
+
+.container a {
+    color: #454545;
+}
+
+.container table {
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.container table thead td {
+    background-color: #f5f5f5;
+    padding: 4px 10px;
+}
+
+.container table tbody td {
+    padding: 4px 10px;
+}
+
+.container .box {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.container input {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.container select {
+    text-align: center;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.container input[type="submit"] {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.container button {
+    background-color: #ccc;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+
+
+.footer a {
+    color: #454545;
+}
+
+.listadoCanciones {
+    border: 1px solid #CCC;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.listadoCanciones header {
+    font-weight: bold;
+}
+
+
+
+.descripcion {
+    color: blue;
+}
+*/
